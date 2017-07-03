@@ -1,0 +1,55 @@
+table {
+	margin: 0 auto; /*centrar*/
+	width: 85%;
+	background-color: rgba(255,255,255,0.6);
+
+}
+
+table, td {
+	border: 1px solid black;
+}
+
+iframe {
+	width: 100%;
+	height: 550px;
+}
+
+
+body {
+	background: url('../img/linux-tux.png') no-repeat center bottom fixed;
+	background-size: 45%;
+}
+/*
+a {
+	text-decoration: none;
+
+}
+*/
+
+td {
+	padding: 10px;
+}
+
+#header  a {
+	text-decoration: none;
+	color: black;
+	font-weight: 800;
+	font-size: 2ch;
+}
+
+.light {
+	background-color: #ccc;
+
+}
+
+.hard {
+	background-color: #aaa;
+}
+
+.light:hover {
+	background-color: #888;
+}
+
+.hard:hover {
+	background-color: #888;
+}
